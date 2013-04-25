@@ -1,0 +1,649 @@
+* {
+	font: normal 13px "clan-bookbook";
+}
+body {
+	background-color: #292A29;
+}
+header {
+	background-color: #ffffff;
+	border-bottom: 3px solid #0f808a;
+	height: 90px;
+	
+}
+	#header-wp {
+		position: relative;
+	}
+	#header-wp, #container-wp, #footer-wp {
+		width: 940px;
+		margin: 0 auto;
+	}
+		#header-wp ul#izq {
+			float: left;
+		}
+			#header-wp ul li {
+				margin: -55px 10px 0 10px;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			#header-wp ul#izq li {
+				margin-right: 15px;
+			}
+		#header-wp ul#der {
+			float: right;
+		}
+				
+				#header-wp a {
+					color: black;
+					text-decoration: none;
+					text-transform: uppercase;
+					font: normal 13px "clan-bookbook";
+					
+					
+					
+				}
+				#header-wp a:hover, #header-wp a.active {
+					color: #0f808a;
+				}
+				.logo {
+					display: block;
+					width: 184px;
+					height: 74px;
+					background: transparent url('../img/logo.png') no-repeat left top;
+					text-indent: -999999px;
+					margin: 0 auto;
+					z-index: 2000;
+					position: relative;
+					top: 30px;
+					background-color: white;
+					border-right: 30px solid #ffffff;
+					border-left: 30px solid #ffffff;
+				}
+			
+	#container {
+		background-color: white;
+		overflow: hidden;
+		padding-bottom: 20px;
+	}
+		#container-wp {
+			padding-top: 45px;
+		}
+	#info {
+		background-color:#E3E3E3;
+		margin-bottom: 15px;
+		padding: 37px 45px 37px 45px;
+	}
+		h1 {
+			text-transform: uppercase;
+			color: #282727;
+			font: normal 35px "clan-boldbold";
+			margin-bottom: 8px;
+		}
+	#titulo{
+		background-color: #E3E3E3;
+		height: 69px;
+		padding-top: 37px;
+		margin-bottom: 25px;
+	}
+		#titulo h1 {
+			margin-left: 45px;
+		}
+	
+	#container-wp #forma p {
+			color: #8F8F8F;
+			width: 850px;
+			font: normal 15px "clan-bookbook";
+			margin-bottom: 20px;
+			padding-top: 16px;
+		}
+		#container-wp #info p {
+			border-top: 2px solid #93272F;
+			font: normal 15px "clan-bookbook";
+				color: #8F8F8F;
+			padding-top: 25px;
+			margin-bottom: 30px;
+		}
+			#container-wp p span {
+				color: #282727;
+				text-transform: uppercase;
+				font: normal 15px "clan-boldbold";
+			}
+			#container-wp h2 {
+				font: normal 18px "clan-boldbold";
+				color: #282727;
+				text-transform: uppercase;
+				margin-bottom: 20px;
+			}
+			#container-wp #info ul li {
+				display: inline-block;
+			}
+			#container-wp #info ul li, #opciones ul li {
+				margin-left: 10px;
+				color: #93272F;
+				font: normal 15px "clan-bookbook";
+			}
+				#container-wp #info ul.valor {
+						margin-right: 70px;
+					}
+					#container-wp #info ul li ul.valor li, #opciones ul li {
+						display: list-item;
+						list-style-type: disc;
+						margin-bottom: 10px;
+					}
+					#container-wp #info li span {
+						color: #8F8F8F;
+					}
+			#container-wp #forma {
+				margin-left: 45px;
+				position: relative;
+			}
+			input[type="tel"], input[type="email"], input[type="text"] {
+				font: normal 16px "clan-bookbook";
+				color: #8F8F8F;
+				margin: 0 15px 15px 15px;
+				border: 1px solid #DEE0E0;
+				
+			}
+			input#rname, input[type="tel"]{
+				width: 275px;
+				height: 30px;
+				padding-left: 85px;
+				
+			}
+			input[type="email"], input#rciudad {
+				width: 288px;
+				padding-left: 70px;
+				height: 30px;
+			}
+			
+			label#lname, label#lemail, label#ltel, label#lciudad, label#rcomment  {
+				font: normal 16px "clan-bookbook";
+				color: #8F8F8F;
+			}
+			label#lname {
+				position: absolute;
+				top: 62px;
+				left: 22px;
+			}
+			label#lemail {
+				position: absolute;
+				top: 62px;
+				left: 422px;
+			}
+			label#ltel {
+				position: absolute;
+				top: 110px;
+				left: 22px;
+			}
+			label#lciudad {
+				position: absolute;
+				top: 110px;
+				left: 422px;
+			}
+			label#rcomment {
+				position: absolute;
+				top: 158px;
+				left: 22px;
+			}
+			textarea {
+				font: normal 16px "clan-bookbook";
+				color: #8F8F8F;
+				width: 675px;
+				margin-left: 15px;
+				padding-left: 80px;
+				padding-top: 5px;
+				border: 1px solid #DEE0E0;
+			}
+			input#bEnviar {
+				background: #93272f; /* Old browsers */
+				background: -moz-linear-gradient(top,  #93272f 0%, #77202e 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93272f), color-stop(100%,#77202e)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #93272f 0%,#77202e 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #93272f 0%,#77202e 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #93272f 0%,#77202e 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #93272f 0%,#77202e 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93272f', endColorstr='#77202e',GradientType=0 ); /* IE6-9 */
+				border-radius:25px;
+				border: none;
+				font: normal 12px "clan-bookbook";
+				color: white;
+				padding: 5px 25px;
+				margin-top: 10px;
+				float: right;
+				margin-right: 125px;
+				
+			}
+			input#bEnviar:hover{
+				background: #77202e; /* Old browsers */
+				background: -moz-linear-gradient(top,  #77202e 0%, #93272f 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#77202e), color-stop(100%,#93272f)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #77202e 0%,#93272f 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #77202e 0%,#93272f 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #77202e 0%,#93272f 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #77202e 0%,#93272f 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77202e', endColorstr='#93272f',GradientType=0 ); /* IE6-9 */
+				
+			}
+			#container-wp #contacto {
+				margin-top: 70px;
+				background: transparent url('../img/shadow.png') repeat-x;
+				padding:  30px 0 40px 45px;
+				text-align: center;
+			}
+				#container-wp #contacto ul li {
+					display: inline-block;
+					font: normal 15px "clan-bookbook";
+					color: #282727;
+				}
+					#container-wp ul.numero {
+						margin: 0 30px;
+					}
+						#container-wp #contacto ul li ul.numero li {
+							display: list-item;
+							text-align: center;
+							color: #8F8F8F;
+						}
+							#container-wp #contacto ul li span {
+								color: #292A29;
+								font: normal 15px "clan-boldbold";
+							}
+/* Pagina Empresa */
+			#usos {
+				height: 520px;
+			}
+				#opciones {
+					background: transparent url('../img/shadow.png') repeat-x;
+					background-color: #E3E3E3;
+					height: 195px;
+					width:235px;
+					float: left;
+				}
+					#opciones ul {
+						margin: 20px 0 0 20px;
+					}
+						#opciones ul li {
+							text-transform: uppercase;
+							margin-bottom: 18px;
+						}
+						#opciones ul li a {
+							text-decoration: none;
+							color: #8F8F8F;
+						}
+				#container-wp img#casa {
+					float: right;
+				}
+/* Pagina USOS */
+			#preguntas {
+				background: transparent url('../img/shadow.png') repeat-x;
+				padding-top: 15px;
+			}
+				#preguntas dl.faq dt {
+					position: relative;
+					margin-bottom: 20px;
+					margin-top: 10px;
+				}
+					#preguntas dl.faq dt p {
+						font: normal 16px "clan-boldbold";
+						color: #000000;
+						margin: 0px 55px;
+						padding-top: 0px;
+					}
+					#preguntas dl.faq dt img {
+						position: absolute;
+						top: -4px;
+						left: 10px;
+					}
+				#preguntas dd.answer {
+					font: normal 15px "clan-bookbook";
+					color: #8F8F8F;
+					background-color: #F2F2F2;
+					position: relative;
+					padding: 15px 0;
+	
+				}
+					#preguntas dd.answer p {
+						margin-left: 55px;
+					}
+				
+				#preguntas dd.answer img {
+					position: absolute;
+					top: 10px;
+					left: 10px;
+				}
+				/* Pagina FAQ*/
+#container-wp a#botond {
+	background: #93272f; /* Old browsers */
+	background: -moz-linear-gradient(top,  #93272f 0%, #77202e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93272f), color-stop(100%,#77202e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #93272f 0%,#77202e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #93272f 0%,#77202e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #93272f 0%,#77202e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #93272f 0%,#77202e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93272f', endColorstr='#77202e',GradientType=0 ); /* IE6-9 */
+	border-radius:25px;
+	border: none;
+	font: normal 12px "clan-bookbook";
+	color: white;
+	padding: 10px 45px 10px 15px;
+	width: 120px;
+	text-decoration: none;
+	position: relative;
+	left: 690px;
+
+}	
+	#container-wp a#botond:hover{
+		background: #77202e; /* Old browsers */
+		background: -moz-linear-gradient(top,  #77202e 0%, #93272f 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#77202e), color-stop(100%,#93272f)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #77202e 0%,#93272f 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #77202e 0%,#93272f 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #77202e 0%,#93272f 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #77202e 0%,#93272f 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77202e', endColorstr='#93272f',GradientType=0 ); /* IE6-9 */
+	}			
+	#container-wp a img {
+		width: 24px;
+		height: 24px;
+		position: absolute;
+		top: 4px;
+		margin-left: 7px;
+		
+	}
+.paso {
+	width: 460px;
+	height: 287px;
+	margin: 10px 0;
+}
+	#paso1
+	 {
+	 	background: transparent url('../img/inst1.jpg') no-repeat center center;
+	 	float: left;
+	 	 }
+		 #paso1:hover{
+		 	background: transparent url('../img/inst01.jpg') no-repeat center center;
+		 }
+	#paso2
+	  {
+	  	background: transparent url('../img/inst2.jpg') no-repeat center center;
+	  	float: right;
+	  }
+		  #paso2:hover{
+		  	background: transparent url('../img/inst02.jpg') no-repeat center center;
+		  }
+	#paso3
+	   {
+	   	background: transparent url('../img/inst3.jpg') no-repeat center center;
+	   	float: left;
+	   }
+		   #paso3:hover{
+		   	background: transparent url('../img/inst03.jpg') no-repeat center center;
+		   }
+	#paso4
+	   {
+	   	background: transparent url('../img/inst4.jpg') no-repeat center center;
+	   	float: right;
+	   }
+		   #paso4:hover{
+		   	background: transparent url('../img/inst04.jpg') no-repeat center center;
+		   }
+	#paso5
+	   {
+	   	background: transparent url('../img/inst5.jpg') no-repeat center center;
+	   	float: left;
+	   	margin-bottom: 40px;
+	   }
+		   #paso5:hover{
+		   	background: transparent url('../img/inst05.jpg') no-repeat center center;
+		   }   
+	#paso6
+	   {
+	   	background: transparent url('../img/inst6.jpg') no-repeat center center;
+	   	float: right;
+	   }
+		   #paso6:hover{
+		   	background: transparent url('../img/inst06.jpg') no-repeat center center;
+		   }  
+	/* Pagina INSTALACION*/				
+footer {
+	height: 50px;
+	background-color: #0f808a;
+}
+	#footer-wp{
+		text-align: center;
+	}
+	#footer-wp ul {
+		margin-top: 0px;
+	}
+		#footer-wp li {
+			margin: 5px 3px 0px 3px;
+			display: inline-block;
+		}
+			#footer-wp a {
+				color: white;
+				text-decoration: none;
+				text-transform: uppercase;
+				font: normal 10px "clan-bookbook";
+			}	
+			#footer-wp p {
+				margin-top: 5px;
+				color: white;
+				font: normal 10px "clan-bookbook";
+			}
+	/* FOOTER*/	
+
+/* INDEX*/
+	#contenido-wp img#slide{
+	margin-bottom: 0px;
+	}
+#shadow{
+		background: transparent url('../img/shadow.png') repeat-x;
+		height: 12px;
+		margin-top: -3px;
+		position: relative;
+		z-index: 1000;
+		
+}
+#welcome {
+	margin: 0px;
+	margin-bottom: 100px;
+	margin-top: -9px;
+	background: #E3E3E3; 
+	padding: 37px 45px 0 45px;
+	height: 220px;
+	text-align: center;
+}
+	#welcome h4 {
+		font: normal 45px "clan-bookbook";
+		color: #292A29;
+		margin-bottom: 15px;
+	}
+		#welcome span {
+			font: normal 45px "clan-boldbold";
+		}
+	#welcome p {
+		color: #8F8F8F;
+		font: normal 18px "clan-bookbook";
+		margin-bottom: 35px;
+		
+	}
+	
+	#welcome ul li.align-series {
+		display: inline-block;
+		margin-right: 10px;
+	}
+		#welcome ul li#last {
+			margin-right: 0;
+		}
+		#welcome ul li ul.series {
+			text-align: center;
+		}
+		#welcome ul li ul.series li {
+			display: list-item;
+			font: normal 18px "clan-bookbook";
+			text-transform: uppercase;	
+		}
+
+			#welcome img.serie {
+					height: 133px;
+					width: 201px;
+				}
+/* INDEX*/
+/* PRODUCTO*/
+		
+			
+#container-wp #top {
+			background-color: #E3E3E3;
+			margin-bottom: 95px;
+			padding: 37px 0 0 45px;
+			height: 260px;
+	}
+	#top #top-l {
+		width: 370px;
+		float: left;
+	}
+		#top-l h1 {
+			text-align: center;
+			border-bottom: 2px solid #93272F;
+		}
+		#top p {
+			margin-top: 40px;
+			color: #5E5E5E;
+			font: normal 16px "clan-bookbook";
+			text-align: center;
+		}
+.hide { 
+position: absolute; 
+top: -9999px; 
+left: -9999px; 
+}
+	
+#example-one { 
+	background: #E3E3E3; 
+	margin: 0 0 20px 0;
+	position: relative;
+	height: 410px;
+	padding-left: 45px;
+}
+
+#example-one .nav { 
+	overflow: hidden; 
+	margin: 95px 0 10px 0; 
+	}
+#example-one .nav li { 
+	width: 97px; 
+	float: left; 
+	margin: 0 110px 0 0; 
+	}
+#example-one .nav li.last { 
+	margin-right: 0; 
+	}
+#example-one .nav li a { 
+	font: normal 16px "clan-bookbook";
+	display: block; 
+	padding: 5px; 
+	color: #888989; 
+	text-align: center; 
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#example-one .nav li a:hover { 
+	font: normal 16px "clan-boldbold";
+	color: #292A29; 
+}
+
+#example-one ul { 
+	list-style: none; 
+	}
+#example-one ul li a { 
+	display: block; 
+	padding: 4px; 
+	color: #666; 
+	}
+#example-one ul li:last-child a { 
+	border: none; 
+	}
+
+#example-one ul li.nav-one a.current, #example-one ul.featured li a:hover { 
+	font: normal 16px "clan-boldbold";
+	color: #292A29; 
+	}
+#example-one ul li.nav-two a.current, #example-one ul.core li a:hover { 
+	font: normal 16px "clan-boldbold";
+	color: #292A29;
+	}
+#example-one ul li.nav-three a.current, #example-one ul.jquerytuts li a:hover { 
+	font: normal 16px "clan-boldbold";
+	color: #292A29; 
+	}
+#example-one ul li.nav-four a.current, #example-one ul.classics li a:hover { 
+	font: normal 16px "clan-boldbold";
+	color: #292A29; 
+	}
+#example-one #marco-l, #example-one #repison-l, #example-one #cornisa-l  {
+	width: 500px;
+	position: relative;
+	
+}
+
+#example-one .titulito {
+	padding-top: 37px;
+;
+	border-bottom: 2px solid #93272F;	
+	display: inline-block;
+	width: 500px;
+	vertical-align: bottom;
+	position: relative;
+}
+	#example-one h1 {
+		margin-bottom: 0;
+		float: left;
+	}
+	#example-one h3 {
+		right: 0;
+		bottom: 5px;
+		font: normal 16px "clan-bookbook";
+		color: #5E5E5E;
+		position: absolute;
+	}
+#example-one ul {
+	margin-top: 15px;
+}
+	#example-one li {
+		font: normal 16px "clan-boldbold";
+	}
+		#example-one li span {
+			color: #5E5E5E;
+		}
+#example-one p {
+	margin: 20px;
+	font: normal 16px "clan-bookbook";
+	color: #5E5E5E;
+	width: 250px;
+	text-align: center;
+}
+	#example-one img.moldura {
+		position: absolute;
+		right: 0;
+		top: 90px;
+	}
+#banner-fade1, #banner-fade2, #banner-fade {
+	position: absolute!important;
+	display: block!important;
+	right: 70px!important;
+	top: 30px;
+	width: 211px!important;
+	height: 318px!important;
+}
+	#banner-fade1 img, #banner-fade2 img, #banner-fade {
+		width: 211px; 
+		height: 318px;
+	}
+
+	/* ORGANIC TABS producto*/
+	#banner-fade1 a, #banner-fade2 a, #banner-fade a {
+		text-indent: -999999px;
+		background: red url('../images/bg.jpg') no-repeat left top;
+		width: 10px;
+		height: 10px;
+		margin-right: 10px;
+	}	
+	
