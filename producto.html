@@ -10,10 +10,13 @@
 	<link rel="apple-touch-icon-precomposed" href="_/img/touch-icon-iphone.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="_/img/touch-icon-ipad.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="_/img/touch-icon-iphone4.png" />
-		 <link rel="stylesheet" href="_/css/bjqs.css">
+	<link rel="stylesheet" href="_/css/coda-slider.css">
+	<link rel="stylesheet" href="_/css/bjqs.css">
 	<link rel="stylesheet" href="_/css/main.css" type="text/css"/>
 	<script src="_/js/modernizr.custom.02144.js"></script>
 	<script src="_/js/jquery-1.8.2.min.js"></script>
+	<script src="_/js/jquery-ui-1.8.20.custom.min.js"></script>
+	<script src="_/js/jquery.coda-slider-3.0.min.js"></script>
 	<script src="_/js/organictabs.jquery.js"></script>
 	<script src="_/js/bjqs-1.3.min.js"></script>
 	<script class="secret-source">
@@ -48,7 +51,112 @@
 	        	
 	    });
 	</script>
+	<script class="secret-source">
+	        jQuery(document).ready(function($) {
+			
+				$('#banner-fade101').bjqs({
+				  height      : 318,
+				  width       : 211,
+				  showcontrols: false,
+				  responsive  : true
+				});
+				$('#banner-fade102').bjqs({
+				  height      : 318,
+				  width       : 211,
+				  showcontrols: false,
+				  responsive  : true
+				});
+				$('#banner-fade103').bjqs({
+				  height      : 318,
+				  width       : 211,
+				  showcontrols: false,
+				  responsive  : true
+				});
+				$('#banner-fade201').bjqs({
+				  height      : 318,
+				  width       : 211,
+				  showcontrols: false,
+				  responsive  : true
+				});
+				$('#banner-fade202').bjqs({
+				  height      : 318,
+				  width       : 211,
+				  showcontrols: false,
+				  responsive  : true
+				});
+				$('#banner-fade203').bjqs({
+				  height      : 318,
+				  width       : 211,
+				  showcontrols: false,
+				  responsive  : true
+				});
+					
+	          $('#banner-fade301').bjqs({
+	            height      : 318,
+	            width       : 211,
+	            showcontrols: false,
+	            responsive  : true
+	          });
+	          $('#banner-fade302').bjqs({
+	            height      : 318,
+	            width       : 211,
+	            showcontrols: false,
+	            responsive  : true
+	          });
+	          $('#banner-fade303').bjqs({
+	            height      : 318,
+	            width       : 211,
+	            showcontrols: false,
+	            responsive  : true
+	          });
+	          $('#banner-fade401').bjqs({
+	            height      : 318,
+	            width       : 211,
+	            showcontrols: false,
+	            responsive  : true
+	          });
+	          $('#banner-fade402').bjqs({
+	            height      : 318,
+	            width       : 211,
+	            showcontrols: false,
+	            responsive  : true
+	          });
+	          $('#banner-fade403').bjqs({
+	            height      : 318,
+	            width       : 211,
+	            showcontrols: false,
+	            responsive  : true
+	          });
+	          
 	
+	        });
+	      </script>
+	
+	<script>
+	    $(function() {
+	
+	        $(".example-one").organicTabs();
+	        	
+	    });
+	</script>
+	
+	<script>
+	    $(function(){
+	
+	      /* Here is the slider using default settings */
+	      $('#slider-id').codaSlider();
+	      /* If you want to adjust the settings, you set an option
+	         as follows:
+	
+	          $('#slider-id').codaSlider({
+	            autoSlide:true,
+	            autoHeight:false
+	          });
+	      
+	      */
+	    });
+	
+	 </script> 
 </head>
 <body>
 <header>
@@ -71,103 +179,410 @@
 
 	<div id="container">
 		<div id="container-wp">
-			<div id="top">
-				<div id="top-l">
-				<h1>Serie 30</h1>
-				<p>Líneas elegantes que combinan trazos rectos, secciones curvas de gran amplitud y detalles de medio círculo.  </br>Estilo versátil que combina con prácticamente cualquier estilo de casa actual.</p>
-				</div>
-				<img id="fachada" src="_/img/fachada.png"/>
-			</div>
-			<div id="example-one">
-						
-				
-				<div class="list-wrap">
-					<div id="marco">
-						<div id="marco-l">
-							<div class="titulito">
-								<h1>Marco</h1>
-								<h3>#87347</h3>
-							</div>
-							<ul>
-								<li>Longitud: <span>1"34</span></li>
-								<li>Ancho: <span>1"34</span></li>
-								<li>Largo: <span>1"34</span></li>
-							</ul>
-							<p>Para enmarcar puertas, ventanas, y entradas de garaje. Como banda de transición entre dos acabados distintos en la parte baja de los muros.</p>
-							<img class="moldura" src="_/img/molduras/10r.png"/>
-						</div>
-						<div id="banner-fade1" class="banner-fade-ultimate">
-						
-						        <!-- start Basic Jquery Slider -->
-						        <ul class="bjqs">
-						          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
-						          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
-						          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
-						        </ul>
-						        <!-- end Basic jQuery Slider -->
-						  </div>
-					</div>
-					<div id="repison" class="hide">
-						<div id="repison-l">
-							<div class="titulito">
-								<h1>Repison</h1>
-								<h3>#87347</h3>
-							</div>
-							
+			<div class="coda-slider" id="slider-id">
+			<div>
+				<div class="top">
+					<div class="top-l">
+					<h1>Serie 10</h1>
+					<p>Líneas elegantes que combinan trazos rectos, secciones curvas de gran amplitud y detalles de medio círculo.  </br>Estilo versátil que combina con prácticamente cualquier estilo de casa actual.</p>
+					</div><!-- end of #top-l -->
+					<img class="fachada" src="_/img/fachada.png"/>
+				</div><!-- end of #top -->
+				<div class="example-one">
+					<div class="list-wrap">
+						<div id="marco10">
+							<div id="marco-10">
+								<div class="titulito">
+									<h1>Marco</h1>
+									<h3>#87347</h3>
+								</div>
 								<ul>
-									<li>Longitud: <span>1"34</span></li>
-									<li>Ancho: <span>1"34</span></li>
-									<li>Largo: <span>1"34</span></li>
+									<li>Alto: <span>10 cm</span></li>
+									<li>Ancho: <span>4 cm</span></li>
+									<li>Largo: <span>122 cm</span></li>
 								</ul>
 								<p>Para enmarcar puertas, ventanas, y entradas de garaje. Como banda de transición entre dos acabados distintos en la parte baja de los muros.</p>
-							<img class="moldura" src="_/img/molduras/10r.png"/>
-						</div>
-						<div id="banner-fade2" class="banner-fade-ultimate">
-						
-						        <!-- start Basic Jquery Slider -->
-						        <ul class="bjqs">
-						          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
-						          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
-						          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
-						        </ul>
-						        <!-- end Basic jQuery Slider -->
-						 </div>
-					</div>
-					<div id="cornisa" class="hide">
-						<div id="cornisa-l">
-							<div class="titulito">
-								<h1>Marco</h1>
-								<h3>#87347</h3>
+								<img class="moldura" src="_/img/molduras/10r.png"/>
 							</div>
-							<ul>
-								<li>Longitud: <span>1"34</span></li>
-								<li>Ancho: <span>1"34</span></li>
-								<li>Largo: <span>1"34</span></li>
-							</ul>
-							<p>Para enmarcar puertas, ventanas, y entradas de garaje. Como banda de transición entre dos acabados distintos en la parte baja de los muros.</p>
-							<img class="moldura" src="_/img/molduras/10r.png"/>
+							<div id="banner-fade103" class="banner-fade-ultimate">
+							
+							        <!-- start Basic Jquery Slider -->
+							        <ul class="bjqs">
+							          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
+							          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
+							          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
+							        </ul>
+							        <!-- end Basic jQuery Slider -->
+							  </div>
 						</div>
-						<div id="banner-fade" class="banner-fade-ultimate">
-						
-						        <!-- start Basic Jquery Slider -->
-						        <ul class="bjqs">
-						          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
-						          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
-						          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
-						        </ul>
-						        <!-- end Basic jQuery Slider -->
-						  </div>
+						<div id="repison10" class="hide">
+							<div id="repison-10">
+								<div class="titulito">
+									<h1>Repison</h1>
+									<h3>#87347</h3>
+								</div>
+								
+									<ul>
+										<li>Alto: <span>12 cm</span></li>
+										<li>Ancho: <span>7.5 cm</span></li>
+										<li>Largo: <span>122 cm</span></li>
+									</ul>
+									<p>Para enmarcar la parte horizontal baja de las ventanas. Para el perímetro superior
+									de bardas. Como cornisa en muros de baja altura. Para coronar columnas cuadradas. Como banda de
+									transición en muros.</p>
+								<img class="moldura" src="_/img/molduras/11r.png"/>
+							</div>
+							<div id="banner-fade102" class="banner-fade-ultimate">
+							
+							        <!-- start Basic Jquery Slider -->
+							        <ul class="bjqs">
+							          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
+							          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
+							          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
+							        </ul>
+							        <!-- end Basic jQuery Slider -->
+							 </div>
+						</div>
+						<div id="cornisa10" class="hide">
+							<div id="cornisa-10">
+								<div class="titulito">
+									<h1>Cornisa</h1>
+									<h3>#87347</h3>
+								</div>
+								<ul>
+									<li>Alto: <span>16 cm</span></li>
+									<li>Ancho: <span>13.5 cm</span></li>
+									<li>Largo: <span>122 cm</span></li>
+								</ul>
+								<p>En perímetros superiores de los muros, donde estos terminan y se unen a la
+								techumbre. En el perímetro superior de bardas o muretes. Para coronar columnas cuadradas.</p>
+								<img class="moldura" src="_/img/molduras/12r.png"/>
+							</div>
+							<div id="banner-fade101" class="banner-fade-ultimate">
+							
+							        <!-- start Basic Jquery Slider -->
+							        <ul class="bjqs">
+							          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
+							          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
+							          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
+							        </ul>
+							        <!-- end Basic jQuery Slider -->
+							  </div>
+						</div>
+							 
+					 </div> <!-- END List Wrap -->
+					 <ul class="nav">
+					     <li class="nav-one"><a href="#marco10" class="current">Marco</a></li>
+					     <li class="nav-two"><a href="#repison10">Repison</a></li>
+					     <li class="nav-three"><a href="#cornisa10">Cornisa</a></li>
+					 </ul>
+				 
+				 </div> <!-- END Organic Tabs (Example One) -->
+			</div><!-- end of serie20 -->
+			<div>
+				<div class="top">
+					<div class="top-l">
+					<h1>Serie 20</h1>
+					<p>Líneas elegantes que combinan trazos rectos, secciones curvas de gran amplitud y detalles de medio círculo.  </br>Estilo versátil que combina con prácticamente cualquier estilo de casa actual.</p>
+					</div><!-- end of #top-l -->
+					<img class="fachada" src="_/img/fachada.png"/>
+				</div><!-- end of #top -->
+				<div class="example-one">
+					<div class="list-wrap">
+						<div id="marco20">
+							<div id="marco-20">
+								<div class="titulito">
+									<h1>Marco</h1>
+									<h3>#87347</h3>
+								</div>
+								<ul>
+									<li>Alto: <span>11 cm</span></li>
+									<li>Ancho: <span>5 cm</span></li>
+									<li>Largo: <span>122 cm</span></li>
+								</ul>
+								<p>Para enmarcar puertas, ventanas, y entradas de garaje. Como banda de transición entre dos acabados distintos en la parte baja de los muros.</p>
+								<img class="moldura" src="_/img/molduras/20r.png"/>
+							</div>
+							<div id="banner-fade203" class="banner-fade-ultimate">
+							
+							        <!-- start Basic Jquery Slider -->
+							        <ul class="bjqs">
+							          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
+							          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
+							          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
+							        </ul>
+							        <!-- end Basic jQuery Slider -->
+							  </div>
+						</div>
+						<div id="repison20" class="hide">
+							<div id="repison-20">
+								<div class="titulito">
+									<h1>Repison</h1>
+									<h3>#87347</h3>
+								</div>
+								
+									<ul>
+										<li>Alto: <span>13 cm</span></li>
+										<li>Ancho: <span>8 cm</span></li>
+										<li>Largo: <span>122 cm</span></li>
+									</ul>
+									<p>Para enmarcar la parte horizontal baja de las ventanas. Para el perímetro superior
+									de bardas. Como cornisa en muros de baja altura. Para coronar columnas cuadradas. Como banda de
+									transición en muros.</p>
+								<img class="moldura" src="_/img/molduras/21r.png"/>
+							</div>
+							<div id="banner-fade202" class="banner-fade-ultimate">
+							
+							        <!-- start Basic Jquery Slider -->
+							        <ul class="bjqs">
+							          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
+							          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
+							          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
+							        </ul>
+							        <!-- end Basic jQuery Slider -->
+							 </div>
+						</div>
+						<div id="cornisa20" class="hide">
+							<div id="cornisa-20">
+								<div class="titulito">
+									<h1>Cornisa</h1>
+									<h3>#87347</h3>
+								</div>
+								<ul>
+									<li>Alto: <span>17 cm</span></li>
+									<li>Ancho: <span>13 cm</span></li>
+									<li>Largo: <span>122 cm</span></li>
+								</ul>
+								<p>En perímetros superiores de los muros, donde estos terminan y se unen a la
+								techumbre. En el perímetro superior de bardas o muretes. Para coronar columnas cuadradas.</p>
+								<img class="moldura" src="_/img/molduras/22r.png"/>
+							</div>
+							<div id="banner-fade201" class="banner-fade-ultimate">
+							
+							        <!-- start Basic Jquery Slider -->
+							        <ul class="bjqs">
+							          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
+							          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
+							          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
+							        </ul>
+							        <!-- end Basic jQuery Slider -->
+							  </div>
+						</div>
+							 
+					 </div> <!-- END List Wrap -->
+					 <ul class="nav">
+					     <li class="nav-one"><a href="#marco20" class="current">Marco</a></li>
+					     <li class="nav-two"><a href="#repison20">Repison</a></li>
+					     <li class="nav-three"><a href="#cornisa20">Cornisa</a></li>
+					 </ul>
+				 
+				 </div> <!-- END Organic Tabs (Example One) -->
+			</div><!-- end of serie20 -->
+			<div>
+				<div class="top">
+					<div class="top-l">
+					<h1>Serie 30</h1>
+					<p>Líneas elegantes que combinan trazos rectos, secciones curvas de gran amplitud y detalles de medio círculo.  </br>Estilo versátil que combina con prácticamente cualquier estilo de casa actual.</p>
 					</div>
- 					 
-				 </div> <!-- END List Wrap -->
-				 <ul class="nav">
-				     <li class="nav-one"><a href="#marco" class="current">Marco</a></li>
-				     <li class="nav-two"><a href="#repison">Repison</a></li>
-				     <li class="nav-three"><a href="#cornisa">Cornisa</a></li>
-				 </ul>
-			 
-			 </div> <!-- END Organic Tabs (Example One) -->
-			
+					<img class="fachada" src="_/img/fachada.png"/>
+				</div>
+				<div class="example-one">
+					<div class="list-wrap">
+						<div id="marco30">
+							<div id="marco-30">
+								<div class="titulito">
+									<h1>Marco</h1>
+									<h3>#87347</h3>
+								</div>
+								<ul>
+									<li>Alto: <span>12 cm</span></li>
+									<li>Ancho: <span>4.5 cm</span></li>
+									<li>Largo: <span>122 cm</span></li>
+								</ul>
+								<p>Para enmarcar puertas, ventanas, y entradas de garaje. Como banda de transición entre dos acabados distintos en la parte baja de los muros.</p>
+								<img class="moldura" src="_/img/molduras/30r.png"/>
+							</div>
+							<div id="banner-fade303" class="banner-fade-ultimate">
+							
+							        <!-- start Basic Jquery Slider -->
+							        <ul class="bjqs">
+							          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
+							          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
+							          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
+							        </ul>
+							        <!-- end Basic jQuery Slider -->
+							  </div>
+						</div>
+						<div id="repison30" class="hide">
+							<div id="repison-30">
+								<div class="titulito">
+									<h1>Repison</h1>
+									<h3>#87347</h3>
+								</div>
+								
+									<ul>
+										<li>Alto: <span>14 cm</span></li>
+										<li>Ancho: <span>9 cm</span></li>
+										<li>Largo: <span>122 cm</span></li>
+										
+									</ul>
+									<p>Para enmarcar la parte horizontal baja de las ventanas. Para el perímetro superior
+									de bardas. Como cornisa en muros de baja altura. Para coronar columnas cuadradas. Como banda de
+									transición en muros.</p>
+								<img class="moldura" src="_/img/molduras/31r.png"/>
+							</div>
+							<div id="banner-fade302" class="banner-fade-ultimate">
+							
+							        <!-- start Basic Jquery Slider -->
+							        <ul class="bjqs">
+							          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
+							          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
+							          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
+							        </ul>
+							        <!-- end Basic jQuery Slider -->
+							 </div>
+						</div>
+						<div id="cornisa30" class="hide">
+							<div id="cornisa-30">
+								<div class="titulito">
+									<h1>Cornisa</h1>
+									<h3>#87347</h3>
+								</div>
+								<ul>
+									<li>Alto: <span>18 cm</span></li>
+									<li>Ancho: <span>9.5 cm</span></li>
+									<li>Largo: <span>122 cm</span></li>
+									
+								</ul>
+								<p>En perímetros superiores de los muros, donde estos terminan y se unen a la
+								techumbre. En el perímetro superior de bardas o muretes. Para coronar columnas cuadradas.</p>
+								<img class="moldura" src="_/img/molduras/32r.png"/>
+							</div>
+							<div id="banner-fade301" class="banner-fade-ultimate">
+							
+							        <!-- start Basic Jquery Slider -->
+							        <ul class="bjqs">
+							          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
+							          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
+							          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
+							        </ul>
+							        <!-- end Basic jQuery Slider -->
+							  </div>
+						</div>
+							 
+					 </div> <!-- END List Wrap -->
+					 <ul class="nav">
+					     <li class="nav-one"><a href="#marco30" class="current">Marco</a></li>
+					     <li class="nav-two"><a href="#repison30">Repison</a></li>
+					     <li class="nav-three"><a href="#cornisa30">Cornisa</a></li>
+					 </ul>
+				 
+				 </div> <!-- END Organic Tabs (Example One) -->
+				
+			</div><!-- end of serie30 -->
+			<div>
+				<div class="top">
+					<div class="top-l">
+					<h1>Serie 40</h1>
+					<p>Líneas elegantes que combinan trazos rectos, secciones curvas de gran amplitud y detalles de medio círculo.  </br>Estilo versátil que combina con prácticamente cualquier estilo de casa actual.</p>
+					</div><!-- end of #top-l -->
+					<img class="fachada" src="_/img/fachada.png"/>
+				</div><!-- end of #top -->
+				<div class="example-one">
+					<div class="list-wrap">
+						<div id="marco40">
+							<div id="marco-40">
+								<div class="titulito">
+									<h1>Marco</h1>
+									<h3>#87347</h3>
+								</div>
+								<ul>
+									<li>Alto: <span>14 cm</span></li>
+									<li>Ancho: <span>5cm</span></li>
+									<li>Largo: <span>122 cm</span></li>
+									
+								</ul>
+								<p>Para enmarcar puertas, ventanas, y entradas de garaje. Como banda de transición entre dos acabados distintos en la parte baja de los muros.</p>
+								<img class="moldura" src="_/img/molduras/40r.png"/>
+							</div>
+							<div id="banner-fade403" class="banner-fade-ultimate">
+							
+							        <!-- start Basic Jquery Slider -->
+							        <ul class="bjqs">
+							          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
+							          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
+							          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
+							        </ul>
+							        <!-- end Basic jQuery Slider -->
+							  </div>
+						</div>
+						<div id="repison40" class="hide">
+							<div id="repison-40">
+								<div class="titulito">
+									<h1>Repison</h1>
+									<h3>#87347</h3>
+								</div>
+								
+									<ul>
+										<li>Alto: <span>16 cm</span></li>
+										<li>Ancho: <span>9 cm</span></li>
+										<li>Largo: <span>122 cm</span></li>
+										
+									</ul>
+									<p>Para enmarcar la parte horizontal baja de las ventanas. Para el perímetro superior
+									de bardas. Como cornisa en muros de baja altura. Para coronar columnas cuadradas. Como banda de
+									transición en muros.</p>
+								<img class="moldura" src="_/img/molduras/41r.png"/>
+							</div>
+							<div id="banner-fade402" class="banner-fade-ultimate">
+							
+							        <!-- start Basic Jquery Slider -->
+							        <ul class="bjqs">
+							          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
+							          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
+							          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
+							        </ul>
+							        <!-- end Basic jQuery Slider -->
+							 </div>
+						</div>
+						<div id="cornisa40" class="hide">
+							<div id="cornisa-40">
+								<div class="titulito">
+									<h1>Cornisa</h1>
+									<h3>#87347</h3>
+								</div>
+								<ul>
+									<li>Alto: <span>20 cm</span></li>
+									<li>Ancho: <span>12.5 cm</span></li>
+									<li>Largo: <span>122 cm</span></li>
+									
+								</ul>
+								<p>En perímetros superiores de los muros, donde estos terminan y se unen a la
+								techumbre. En el perímetro superior de bardas o muretes. Para coronar columnas cuadradas.</p>
+								<img class="moldura" src="_/img/molduras/42r.png"/>
+							</div>
+							<div id="banner-fade401" class="banner-fade-ultimate">
+							
+							        <!-- start Basic Jquery Slider -->
+							        <ul class="bjqs">
+							          <li><img src="_/img/s10-1-Estuco.jpg"/></li>
+							          <li><img src="_/img/s10-1-Ladrillo.jpg"/></li>
+							          <li><img src="_/img/s10-1-Piedra.jpg"/></li>
+							        </ul>
+							        <!-- end Basic jQuery Slider -->
+							  </div>
+						</div>
+							 
+					 </div> <!-- END List Wrap -->
+					 <ul class="nav">
+					     <li class="nav-one"><a href="#marco40" class="current">Marco</a></li>
+					     <li class="nav-two"><a href="#repison40">Repison</a></li>
+					     <li class="nav-three"><a href="#cornisa40">Cornisa</a></li>
+					 </ul>
+				 
+				 </div> <!-- END Organic Tabs (Example One) -->
+			</div><!-- end of serie40 -->
+			</div><!-- end of codaslide -->
 		</div><!-- end of #container-wp -->
 	</div><!-- end of #container -->
 <footer>
