@@ -1,5 +1,5 @@
 * {
-	font: normal 13px "clan-bookbook";
+	font: normal 13px "akz-reg";
 }
 body {
 	background-color: #292A29;
@@ -36,7 +36,7 @@ header {
 					color: black;
 					text-decoration: none;
 					text-transform: uppercase;
-					font: normal 13px "clan-bookbook";
+					font: normal 12px "akz-reg";
 					
 					
 					
@@ -74,8 +74,8 @@ header {
 	}
 		h1 {
 			text-transform: uppercase;
-			color: #282727;
-			font: normal 35px "clan-boldbold";
+			color: #0f808a;
+			font: normal 35px "akz-bold";
 			margin-bottom: 8px;
 		}
 	#titulo{
@@ -91,13 +91,13 @@ header {
 	#container-wp #forma p {
 			color: #8F8F8F;
 			width: 850px;
-			font: normal 15px "clan-bookbook";
+			font: normal 15px "akz-reg";
 			margin-bottom: 20px;
 			padding-top: 16px;
 		}
 		#container-wp #info p {
-			border-top: 2px solid #93272F;
-			font: normal 15px "clan-bookbook";
+			border-top: 2px solid #0f808a;
+			font: normal 15px "akz-reg";
 				color: #8F8F8F;
 			padding-top: 25px;
 			margin-bottom: 30px;
@@ -105,10 +105,10 @@ header {
 			#container-wp p span {
 				color: #282727;
 				text-transform: uppercase;
-				font: normal 15px "clan-boldbold";
+				font: normal 15px "akz-bold";
 			}
 			#container-wp h2 {
-				font: normal 18px "clan-boldbold";
+				font: normal 18px "akz-bold";
 				color: #282727;
 				text-transform: uppercase;
 				margin-bottom: 20px;
@@ -118,8 +118,8 @@ header {
 			}
 			#container-wp #info ul li, #opciones ul li {
 				margin-left: 10px;
-				color: #93272F;
-				font: normal 15px "clan-bookbook";
+				color: #0f808a;
+				font: normal 15px "akz-reg";
 			}
 				#container-wp #info ul.valor {
 						margin-right: 70px;
@@ -137,7 +137,7 @@ header {
 				position: relative;
 			}
 			input[type="tel"], input[type="email"], input[type="text"] {
-				font: normal 16px "clan-bookbook";
+				font: normal 16px "akz-reg";
 				color: #8F8F8F;
 				margin: 0 15px 15px 15px;
 				border: 1px solid #DEE0E0;
@@ -156,7 +156,7 @@ header {
 			}
 			
 			label#lname, label#lemail, label#ltel, label#lciudad, label#rcomment  {
-				font: normal 16px "clan-bookbook";
+				font: normal 16px "akz-reg";
 				color: #8F8F8F;
 			}
 			label#lname {
@@ -185,7 +185,7 @@ header {
 				left: 22px;
 			}
 			textarea {
-				font: normal 16px "clan-bookbook";
+				font: normal 16px "akz-reg";
 				color: #8F8F8F;
 				width: 675px;
 				margin-left: 15px;
@@ -194,17 +194,18 @@ header {
 				border: 1px solid #DEE0E0;
 			}
 			input#bEnviar {
-				background: #93272f; /* Old browsers */
-				background: -moz-linear-gradient(top,  #93272f 0%, #77202e 100%); /* FF3.6+ */
-				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93272f), color-stop(100%,#77202e)); /* Chrome,Safari4+ */
-				background: -webkit-linear-gradient(top,  #93272f 0%,#77202e 100%); /* Chrome10+,Safari5.1+ */
-				background: -o-linear-gradient(top,  #93272f 0%,#77202e 100%); /* Opera 11.10+ */
-				background: -ms-linear-gradient(top,  #93272f 0%,#77202e 100%); /* IE10+ */
-				background: linear-gradient(to bottom,  #93272f 0%,#77202e 100%); /* W3C */
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93272f', endColorstr='#77202e',GradientType=0 ); /* IE6-9 */
+				background: #0f808a; /* Old browsers */
+				background: -moz-linear-gradient(top,  #0f808a 2%, #005f84 75%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#0f808a), color-stop(75%,#005f84)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #0f808a 2%,#005f84 75%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #0f808a 2%,#005f84 75%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #0f808a 2%,#005f84 75%); /* IE10+ */
+				background: linear-gradient(to bottom,  #0f808a 2%,#005f84 75%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f808a', endColorstr='#005f84',GradientType=0 ); /* IE6-9 */
+				
 				border-radius:25px;
 				border: none;
-				font: normal 12px "clan-bookbook";
+				font: normal 12px "akz-reg";
 				color: white;
 				padding: 5px 25px;
 				margin-top: 10px;
@@ -213,16 +214,15 @@ header {
 				
 			}
 			input#bEnviar:hover{
-				background: #77202e; /* Old browsers */
-				background: -moz-linear-gradient(top,  #77202e 0%, #93272f 100%); /* FF3.6+ */
-				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#77202e), color-stop(100%,#93272f)); /* Chrome,Safari4+ */
-				background: -webkit-linear-gradient(top,  #77202e 0%,#93272f 100%); /* Chrome10+,Safari5.1+ */
-				background: -o-linear-gradient(top,  #77202e 0%,#93272f 100%); /* Opera 11.10+ */
-				background: -ms-linear-gradient(top,  #77202e 0%,#93272f 100%); /* IE10+ */
-				background: linear-gradient(to bottom,  #77202e 0%,#93272f 100%); /* W3C */
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77202e', endColorstr='#93272f',GradientType=0 ); /* IE6-9 */
-				
-			}
+				background: #005f84; /* Old browsers */
+				background: -moz-linear-gradient(top,  #005f84 4%, #0f808a 73%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(4%,#005f84), color-stop(73%,#0f808a)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #005f84 4%,#0f808a 73%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #005f84 4%,#0f808a 73%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #005f84 4%,#0f808a 73%); /* IE10+ */
+				background: linear-gradient(to bottom,  #005f84 4%,#0f808a 73%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005f84', endColorstr='#0f808a',GradientType=0 ); /* IE6-9 */
+					 }
 			#container-wp #contacto {
 				margin-top: 70px;
 				background: transparent url('../img/shadow.png') repeat-x;
@@ -231,7 +231,7 @@ header {
 			}
 				#container-wp #contacto ul li {
 					display: inline-block;
-					font: normal 15px "clan-bookbook";
+					font: normal 15px "akz-reg";
 					color: #282727;
 				}
 					#container-wp ul.numero {
@@ -244,7 +244,7 @@ header {
 						}
 							#container-wp #contacto ul li span {
 								color: #292A29;
-								font: normal 15px "clan-boldbold";
+								font: normal 15px "akz-bold";
 							}
 /* Pagina Empresa */
 			#usos {
@@ -282,7 +282,7 @@ header {
 					margin-top: 10px;
 				}
 					#preguntas dl.faq dt p {
-						font: normal 16px "clan-boldbold";
+						font: normal 16px "akz-bold";
 						color: #000000;
 						margin: 0px 55px;
 						padding-top: 0px;
@@ -293,7 +293,7 @@ header {
 						left: 10px;
 					}
 				#preguntas dd.answer {
-					font: normal 15px "clan-bookbook";
+					font: normal 15px "akz-reg";
 					color: #8F8F8F;
 					background-color: #F2F2F2;
 					position: relative;
@@ -311,17 +311,18 @@ header {
 				}
 				/* Pagina FAQ*/
 #container-wp a#botond {
-	background: #93272f; /* Old browsers */
-	background: -moz-linear-gradient(top,  #93272f 0%, #77202e 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93272f), color-stop(100%,#77202e)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #93272f 0%,#77202e 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #93272f 0%,#77202e 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #93272f 0%,#77202e 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #93272f 0%,#77202e 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93272f', endColorstr='#77202e',GradientType=0 ); /* IE6-9 */
+	background: #0f808a; /* Old browsers */
+	background: -moz-linear-gradient(top,  #0f808a 2%, #005f84 75%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#0f808a), color-stop(75%,#005f84)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #0f808a 2%,#005f84 75%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #0f808a 2%,#005f84 75%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #0f808a 2%,#005f84 75%); /* IE10+ */
+	background: linear-gradient(to bottom,  #0f808a 2%,#005f84 75%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f808a', endColorstr='#005f84',GradientType=0 ); /* IE6-9 */
+	
 	border-radius:25px;
 	border: none;
-	font: normal 12px "clan-bookbook";
+	font: normal 12px "akz-reg";
 	color: white;
 	padding: 10px 45px 10px 15px;
 	width: 120px;
@@ -331,15 +332,15 @@ header {
 
 }	
 	#container-wp a#botond:hover{
-		background: #77202e; /* Old browsers */
-		background: -moz-linear-gradient(top,  #77202e 0%, #93272f 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#77202e), color-stop(100%,#93272f)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  #77202e 0%,#93272f 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  #77202e 0%,#93272f 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  #77202e 0%,#93272f 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  #77202e 0%,#93272f 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77202e', endColorstr='#93272f',GradientType=0 ); /* IE6-9 */
-	}			
+		background: #005f84; /* Old browsers */
+		background: -moz-linear-gradient(top,  #005f84 4%, #0f808a 73%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(4%,#005f84), color-stop(73%,#0f808a)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #005f84 4%,#0f808a 73%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #005f84 4%,#0f808a 73%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #005f84 4%,#0f808a 73%); /* IE10+ */
+		background: linear-gradient(to bottom,  #005f84 4%,#0f808a 73%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005f84', endColorstr='#0f808a',GradientType=0 ); /* IE6-9 */
+		}			
 	#container-wp a img {
 		width: 24px;
 		height: 24px;
@@ -421,12 +422,12 @@ footer {
 				color: white;
 				text-decoration: none;
 				text-transform: uppercase;
-				font: normal 10px "clan-bookbook";
+				font: normal 10px "akz-reg";
 			}	
 			#footer-wp p {
 				margin-top: 5px;
 				color: white;
-				font: normal 10px "clan-bookbook";
+				font: normal 10px "akz-reg";
 			}
 	/* FOOTER*/	
 
@@ -452,16 +453,16 @@ footer {
 	text-align: center;
 }
 	#welcome h4 {
-		font: normal 45px "clan-bookbook";
-		color: #292A29;
+		font: normal 45px "akz-ita";
+		color: #0f808a;
 		margin-bottom: 15px;
 	}
 		#welcome span {
-			font: normal 45px "clan-boldbold";
+			font: normal 45px "akz-boldita";
 		}
 	#welcome p {
 		color: #8F8F8F;
-		font: normal 18px "clan-bookbook";
+		font: normal 18px "akz-reg";
 		margin-bottom: 35px;
 		
 	}
@@ -478,8 +479,9 @@ footer {
 		}
 		#welcome ul li ul.series li {
 			display: list-item;
-			font: normal 18px "clan-bookbook";
-			text-transform: uppercase;	
+			font: normal 18px "akz-reg";
+			text-transform: uppercase;
+			color:#0f808a;
 		}
 
 			#welcome img.serie {
@@ -502,12 +504,12 @@ footer {
 	}
 		#top-l h1 {
 			text-align: center;
-			border-bottom: 2px solid #93272F;
+			border-bottom: 2px solid #0f808a;
 		}
 		#top p {
 			margin-top: 40px;
 			color: #5E5E5E;
-			font: normal 16px "clan-bookbook";
+			font: normal 16px "akz-reg";
 			text-align: center;
 		}
 .hide { 
@@ -537,7 +539,7 @@ left: -9999px;
 	margin-right: 0; 
 	}
 #example-one .nav li a { 
-	font: normal 16px "clan-bookbook";
+	font: normal 16px "akz-reg";
 	display: block; 
 	padding: 5px; 
 	color: #888989; 
@@ -546,7 +548,7 @@ left: -9999px;
 	text-transform: uppercase;
 }
 #example-one .nav li a:hover { 
-	font: normal 16px "clan-boldbold";
+	font: normal 16px "akz-bold";
 	color: #292A29; 
 }
 
@@ -563,19 +565,19 @@ left: -9999px;
 	}
 
 #example-one ul li.nav-one a.current, #example-one ul.featured li a:hover { 
-	font: normal 16px "clan-boldbold";
+	font: normal 16px "akz-bold";
 	color: #292A29; 
 	}
 #example-one ul li.nav-two a.current, #example-one ul.core li a:hover { 
-	font: normal 16px "clan-boldbold";
+	font: normal 16px "akz-bold";
 	color: #292A29;
 	}
 #example-one ul li.nav-three a.current, #example-one ul.jquerytuts li a:hover { 
-	font: normal 16px "clan-boldbold";
+	font: normal 16px "akz-bold";
 	color: #292A29; 
 	}
 #example-one ul li.nav-four a.current, #example-one ul.classics li a:hover { 
-	font: normal 16px "clan-boldbold";
+	font: normal 16px "akz-bold";
 	color: #292A29; 
 	}
 #example-one #marco-l, #example-one #repison-l, #example-one #cornisa-l  {
@@ -587,7 +589,7 @@ left: -9999px;
 #example-one .titulito {
 	padding-top: 37px;
 ;
-	border-bottom: 2px solid #93272F;	
+	border-bottom: 2px solid #0f808a;	
 	display: inline-block;
 	width: 500px;
 	vertical-align: bottom;
@@ -600,7 +602,7 @@ left: -9999px;
 	#example-one h3 {
 		right: 0;
 		bottom: 5px;
-		font: normal 16px "clan-bookbook";
+		font: normal 16px "akz-reg";
 		color: #5E5E5E;
 		position: absolute;
 	}
@@ -608,14 +610,14 @@ left: -9999px;
 	margin-top: 15px;
 }
 	#example-one li {
-		font: normal 16px "clan-boldbold";
+		font: normal 16px "akz-bold";
 	}
 		#example-one li span {
 			color: #5E5E5E;
 		}
 #example-one p {
 	margin: 20px;
-	font: normal 16px "clan-bookbook";
+	font: normal 16px "akz-reg";
 	color: #5E5E5E;
 	width: 250px;
 	text-align: center;

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<title>123 MOULDINGS</title>
+	<title>123 Mouldings</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<link rel="shortcut icon" href="_/img/favicon.ico" />
@@ -11,24 +11,90 @@
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="_/img/touch-icon-ipad.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="_/img/touch-icon-iphone4.png" />
 	<link rel="stylesheet" href="_/css/main.css" type="text/css"/>
+	<link rel="stylesheet" href="_/css/jquery.qtip.css" type="text/css"/>
 	<script src="_/js/modernizr.custom.02144.js"></script>
 	<script src="_/js/jquery-1.8.2.min.js"></script>
+	<script src="_/js/jquery.qtip.js"></script>
+	<script>
+$(document).ready(function()
+{
 	
+	$('a#wall').qtip({
+	content: {
+			text: '1'
+		},
+		position: {
+			adjust: {
+				x: 500,
+				y: 200
+			}
+		}
+		}
+	);
+	$('a#garage').qtip({
+	content: {
+			text: '2'
+		},
+		position: {
+			adjust: {
+				x: 500,
+				y: 200
+			}
+		}
+	}
+	);
+	$('a#bands').qtip({
+	content: {
+			text: '3'
+		},
+		position: {
+			adjust: {
+				x: 500,
+				y: 200
+			}
+		}
+	}
+	);
+	$('a#window').qtip({
+	content: {
+			text: '4'
+		},
+		position: {
+			adjust: {
+				x: 500,
+				y: 200
+			}
+		}
+	}
+	);
+	$('a#door').qtip({
+	content: {
+			text: '5'
+		},
+		position: {
+			adjust: {
+				x: 500,
+				y: 200
+			}
+		}
+	}
+	);
 	
-</head>
+});	</script>
+	</head>
 <body>
 <header>
 	<div id="header-wp">
 		<div id="logo"><a href="index.html" class="logo">123 MOULDINGS</a></div>
 		<ul id="izq">
-			<li><a href="index.html" class="active">home</a></li>
+			<li><a href="index.html">home</a></li>
 			<li><a href="empresa.html">company</a></li>
 			<li><a href="producto.html">products</a></li>
 			<li><a href="galeria.html" >showcase</a></li>
 		</ul>
 		<ul id="der">
 			<li><a href="instalacion.html">guide installation</a></li>
-			<li><a href="usos.html">uses</a></li>
+			<li><a href="usos.html" class="active">uses</a></li>
 			<li><a href="faq.html">faq</a></li>
 			<li><a href="puntosdeventa.html">locations</a></li>
 		</ul>
@@ -36,55 +102,22 @@
 </header> 
 	<div id="container">
 		<div id="container-wp">
-			<img id="slide" src="_/img/slide-casa.jpg"/>
-			<div id="shadow"></div>
-			<div id="welcome">
-				<h4>Making your paint job <span>extraordinary.</span></h4>
-				<p>Contribuimos en la creación de belleza arquitectónica e incrementamos el valor de toda edificación, te invitamos a que conozcas nuestros estilos.</p>
-				<ul>
-					<li class="align-series">
-						<ul class="series">
-							<li>
-								<img class="serie" src="_/img/fachada.png"/>
-							</li>
-							<li>
-							hacienda
-							</li>
-						</ul>
-					</li>
-					<li class="align-series">
-						<ul class="series">
-							<li>
-								<img class="serie" src="_/img/fachada.png"/>
-							</li>
-							<li>
-							toscano
-							</li>
-						</ul>
-					</li>
-					<li class="align-series">
-						<ul class="series">
-							<li>
-								<img class="serie" src="_/img/fachada.png"/>
-							</li>
-							<li>
-							italia
-							</li>
-						</ul>
-					</li>
-					<li class="align-series" id="last">
-						<ul class="series">
-							<li>
-								<img class="serie" src="_/img/fachada.png"/>
-							</li>
-							<li>
-							colonial
-							</li>
-						</ul>
-					</li>
-				</ul>
+			<div id="titulo">
+				<h1>Uses</h1>
+			</div><!-- end of #info -->
+			<div id="usos">
+				<div id="opciones" >
+					<ul>
+						<li><a href="#" id="wall">wall</a></li>
+						<li><a href="#" id="garage">garage trim</a></li>
+						<li><a href="#" id="bands">wall bands</a></li>
+						<li><a href="#" id="window">window</a></li>
+						<li><a href="#" id="door">door</a></li>
+					</ul>
+				</div>
+				<img id="casa" src="_/img/casa.png"/>
 			</div>
-		</div><!-- end of #container-wp -->
+			</div><!-- end of #container-wp -->
 	</div><!-- end of #container -->
 <footer>
 	<div id="footer-wp">
