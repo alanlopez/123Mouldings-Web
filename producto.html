@@ -21,38 +21,6 @@
 	<script src="_/js/bjqs-1.3.min.js"></script>
 	<script class="secret-source">
 	        jQuery(document).ready(function($) {
-	
-	          $('#banner-fade').bjqs({
-	            height      : 318,
-	            width       : 211,
-	            showcontrols: false,
-	            responsive  : true
-	          });
-	          $('#banner-fade2').bjqs({
-	            height      : 318,
-	            width       : 211,
-	            showcontrols: false,
-	            responsive  : true
-	          });
-	          $('#banner-fade1').bjqs({
-	            height      : 318,
-	            width       : 211,
-	            showcontrols: false,
-	            responsive  : true
-	          });
-	
-	        });
-	      </script>
-	
-	<script>
-	    $(function() {
-	
-	        $("#example-one").organicTabs();
-	        	
-	    });
-	</script>
-	<script class="secret-source">
-	        jQuery(document).ready(function($) {
 			
 				$('#banner-fade101').bjqs({
 				  height      : 318,
@@ -144,7 +112,10 @@
 	    $(function(){
 	
 	      /* Here is the slider using default settings */
-	      $('#slider-id').codaSlider();
+	      $('#slider-id').codaSlider({
+	      dynamicArrowLeftText:" prev",
+	      dynamicArrowRightText:"next "
+	      });
 	      /* If you want to adjust the settings, you set an option
 	         as follows:
 	
@@ -178,13 +149,14 @@
 </header>  
 
 	<div id="container">
-		<div id="container-wp">
+	<div id="contenedor-ipad">
+		<div id="contenedor-wp">
 			<div class="coda-slider" id="slider-id">
 			<div>
 				<div class="top">
 					<div class="top-l">
 					<h1>Serie 10</h1>
-					<p>Líneas elegantes que combinan trazos rectos, secciones curvas de gran amplitud y detalles de medio círculo.  </br>Estilo versátil que combina con prácticamente cualquier estilo de casa actual.</p>
+					<p>Líneas elegantes que combinan trazos rectos, secciones curvas de gran amplitud y detalles de medio círculo. Estilo versátil que combina con prácticamente cualquier estilo de casa actual.</p>
 					</div><!-- end of #top-l -->
 					<img class="fachada" src="_/img/fachada.png"/>
 				</div><!-- end of #top -->
@@ -583,7 +555,8 @@
 				 </div> <!-- END Organic Tabs (Example One) -->
 			</div><!-- end of serie40 -->
 			</div><!-- end of codaslide -->
-		</div><!-- end of #container-wp -->
+		</div><!-- end of #contenedor-wp -->
+		</div><!-- end of #contenedor-ipad -->
 	</div><!-- end of #container -->
 <footer>
 	<div id="footer-wp">

@@ -25,7 +25,7 @@ css-tricks.com/musings-on-preprocessing/
   * Main wrapper padding 
   *
   *******************************************************/
-  padding: 0px 0; 
+  width: 1002px; 
 }
   
   .coda-slider-wrapper .coda-slider {
@@ -118,12 +118,33 @@ css-tricks.com/musings-on-preprocessing/
       * Arrow Styles 
       *
       *******************************************************/
-      background: #000;
       color: #fff;
-      padding: 5px;
-      width: 100px; 
+            font: normal 25px "akz-bold";
+            text-transform: uppercase;
+            width: 116px;
+            height: 67px;
+            text-align: center;
     }
-  
+  .coda-slider-wrapper .coda-nav-left  {
+     	background: url('../img/left.png') no-repeat top left;
+     	margin-top: 230px;
+     	width: 116px;
+     	height: 100px;
+     }
+     .coda-slider-wrapper .coda-nav-right  {
+     	background: url('../img/right.png') no-repeat top left;
+     	margin-top: 230px;
+     	width: 116px;
+     	height: 100px;
+     }
+     .coda-slider-wrapper .coda-nav-left a {
+      	text-indent: 16px;
+      	padding-top: 34px;
+      }
+      .coda-slider-wrapper .coda-nav-right a {
+      	text-indent: -19px;
+      	padding-top: 34px;
+      }
   .coda-slider-wrapper .coda-nav-left-arrow {
     /******************************************************
     * 
