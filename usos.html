@@ -21,66 +21,76 @@ $(document).ready(function()
 	
 	$('a#wall').qtip({
 	content: {
-			text: '1'
+			text: 'Wall'
 		},
 		position: {
-			adjust: {
-				x: 500,
-				y: 200
+		adjust: {
+			x: -20,
+			y: 0
+		},
+				my: 'bottom right', 
+				at: 'top right'
 			}
-		}
 		}
 	);
 	$('a#garage').qtip({
 	content: {
-			text: '2'
+			text: 'Garage'
 		},
 		position: {
-			adjust: {
-				x: 500,
-				y: 200
+		adjust: {
+			x: -15,
+			y: 0
+		},
+				my: 'bottom right', 
+				at: 'top right'
 			}
 		}
-	}
 	);
 	$('a#bands').qtip({
 	content: {
-			text: '3'
+			text: 'Bands'
 		},
 		position: {
-			adjust: {
-				x: 500,
-				y: 200
+		adjust: {
+			x: 20,
+			y: 0
+		},
+				my: 'bottom left', 
+				at: 'top left'
 			}
 		}
-	}
 	);
 	$('a#window').qtip({
 	content: {
-			text: '4'
+			text: 'Window'
 		},
 		position: {
-			adjust: {
-				x: 500,
-				y: 200
+		adjust: {
+			x: 15,
+			y: 0
+		},
+				my: 'bottom left', 
+				at: 'top left'
 			}
 		}
-	}
 	);
 	$('a#door').qtip({
 	content: {
-			text: '5'
+			text: 'Door'
 		},
 		position: {
-			adjust: {
-				x: 500,
-				y: 200
+		adjust: {
+			x: 0,
+			y: 0
+		},
+				my: 'bottom center', 
+				at: 'top center'
 			}
 		}
-	}
 	);
 	
-});	</script>
+});</script>
 	</head>
 <body>
 <header>
@@ -90,13 +100,12 @@ $(document).ready(function()
 			<li><a href="index.html">home</a></li>
 			<li><a href="empresa.html">company</a></li>
 			<li><a href="producto.html">products</a></li>
-			<li><a href="galeria.html" >showcase</a></li>
+			<li><a href="usos.html" class="active">uses</a></li>
 		</ul>
 		<ul id="der">
 			<li><a href="instalacion.html">guide installation</a></li>
-			<li><a href="usos.html" class="active">uses</a></li>
-			<li><a href="faq.html">faq</a></li>
-			<li><a href="puntosdeventa.html">locations</a></li>
+			<li><a href="galeria.html" >showcase</a></li>
+			<li><a href="faq.html">top faqs</a></li>
 		</ul>
 	</div><!-- end of #header-wp -->
 </header> 
@@ -106,16 +115,12 @@ $(document).ready(function()
 				<h1>Uses</h1>
 			</div><!-- end of #info -->
 			<div id="usos">
-				<div id="opciones" >
-					<ul>
-						<li><a href="#" id="wall">wall</a></li>
-						<li><a href="#" id="garage">garage trim</a></li>
-						<li><a href="#" id="bands">wall bands</a></li>
-						<li><a href="#" id="window">window</a></li>
-						<li><a href="#" id="door">door</a></li>
-					</ul>
-				</div>
-				<img id="casa" src="_/img/casa.png"/>
+			<a href="#" id="wall"><img src="_/img/point.png"/></a>
+			<a href="#" id="garage"><img src="_/img/point.png"/></a>
+			<a href="#" id="bands"><img src="_/img/point.png"/></a>
+			<a href="#" id="window"><img src="_/img/point.png"/></a>
+			<a href="#" id="door"><img src="_/img/point.png"/></a>
+			<img id="casa" src="_/img/casa2.jpg"/>
 			</div>
 			</div><!-- end of #container-wp -->
 	</div><!-- end of #container -->
@@ -128,10 +133,7 @@ $(document).ready(function()
 			<li><a href="instalacion.html">guide instalation</a></li>
 			<li><a href="usos.html">uses</a></li>
 			<li><a href="galeria.html">showcase</a></li>
-			<li><a href="puntosdeventa.html">locations</a></li>
-			<li><a href="privacidad.html">Privacy</a></li>
-			<li><a href="faq.html">Faq</a></li>
-			<li><a href="contacto.html">Contact</a></li>
+			<li><a href="faq.html">top Faq</a></li>
 		</ul>
 		<p>© Copyright 123 MOULDINGS, 2012-2013. All Rights Reserved.</p>
 	</div><!-- end of #footer-wp -->

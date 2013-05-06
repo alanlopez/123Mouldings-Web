@@ -18,14 +18,12 @@
 
 	max-width: 280px;
 	min-width: 50px;
-	
-	
+
 	line-height: 12px;
-	font: normal 15px "clan-boldbold";
+	font: normal 15px "akz-reg";
 	text-transform: uppercase;
 	direction: ltr;
-	opacity: 0.6;
-	filter:alpha(opacity=60);
+	
 	box-shadow: none;
 	padding: 0;
 	
@@ -33,18 +31,19 @@
 
 	.qtip-content{
 		position: relative;
-		padding: 20px 15px;
+		padding: 10px 25px;
 		overflow: hidden;
-
-		text-align: left;
+		font: normal 40px "akz-reg";
+		opacity: 1.0!important;
+		text-align: center;
 		word-wrap: break-word;
+		color: #000000;
 	}
 
 	.qtip-titlebar{
 		position: relative;
 		padding: 5px 35px 5px 10px;
 		overflow: hidden;
-
 		border-width: 0 0 1px;
 		font-weight: bold;
 	}
@@ -54,7 +53,7 @@
 	/* Default close button class */
 	.qtip-close{
 		position: absolute;
-		right: -9px; top: -9px;
+		right: -1px; top: -9px;
 
 		cursor: pointer;
 		outline: medium none;
@@ -65,7 +64,7 @@
 	}
 
 		.qtip-titlebar .qtip-close{
-			right: 4px; top: 50%;
+			right: 4px; top: 2%;
 			margin-top: -9px;
 		}
 	
@@ -108,24 +107,31 @@
 .qtip-default{
 	border-width: 1px;
 	border-style: solid;
-	border-color: #8F8F8F;
+	border-color: #e3e3e3;
 	border-radius: 5px;
-	background-color: #8F8F8F;
-	color: white;
+	background-color: #e3e3e3;
+	color: #8F8F8F;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Arial Black', Gadget, sans-serif;
+	text-align: center;
+	opacity: 0.7!important;
+	filter:alpha(opacity=70)!important;
 }
 
 	.qtip-default .qtip-titlebar{
-		background-color: #8F8F8F;
+		background-color: #e3e3e3;
+		
 	}
 
 	.qtip-default .qtip-icon{
-		border-color: #8F8F8F;
-		background: #F1F1F1;
+		border-color: #e3e3e3;
+		background: #e3e3e3;
 		color: #777;
 	}
 	
 	.qtip-default .qtip-titlebar .qtip-close{
-		border-color: #8F8F8F;
+		border-color: #e3e3e3;
 		color: #111;
 	}
 

@@ -26,11 +26,15 @@ header {
 				vertical-align: middle;
 			}
 			#header-wp ul#izq li {
-				margin-right: 15px;
+				margin-right: 25px;
 			}
 		#header-wp ul#der {
 			float: right;
 		}
+		#header-wp ul#der li {
+				margin-left: 15px;
+			}
+		
 				
 				#header-wp a {
 					color: black;
@@ -249,8 +253,37 @@ header {
 							}
 /* Pagina Empresa */
 			#usos {
-				height: 520px;
+				position: relative;
 			}
+			#usos a {
+				position: absolute;
+			}
+			a#wall {
+				left: 400px;
+				top: 390px;
+				
+			}
+			a#garage {
+				right: 100px;
+				top: 385px;
+				
+			}
+			a#bands {
+				left: 400px;
+				top: 290px;
+				
+			}
+			a#door {
+				right: 360px;
+				top: 383px;
+				
+			}
+			a#window {
+				left: 95px;
+				top: 170px;
+				
+			}
+			
 				#opciones {
 					background: transparent url('../img/shadow.png') repeat-x;
 					background-color: #E3E3E3;
@@ -342,7 +375,7 @@ header {
 		background: linear-gradient(to bottom,  #005f84 4%,#0f808a 73%); /* W3C */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005f84', endColorstr='#0f808a',GradientType=0 ); /* IE6-9 */
 		}			
-	#container-wp a img {
+	#container-wp #info a img {
 		width: 24px;
 		height: 24px;
 		position: absolute;
@@ -357,52 +390,52 @@ header {
 }
 	#paso1
 	 {
-	 	background: transparent url('../img/inst1.jpg') no-repeat center center;
+	 	background: transparent url('../img/inst01.jpg') no-repeat center center;
 	 	float: left;
 	 	 }
 		 #paso1:hover{
-		 	background: transparent url('../img/inst01.jpg') no-repeat center center;
+		 	background: transparent url('../img/inst1.jpg') no-repeat center center;
 		 }
 	#paso2
 	  {
-	  	background: transparent url('../img/inst2.jpg') no-repeat center center;
+	  	background: transparent url('../img/inst02.jpg') no-repeat center center;
 	  	float: right;
 	  }
 		  #paso2:hover{
-		  	background: transparent url('../img/inst02.jpg') no-repeat center center;
+		  	background: transparent url('../img/inst2.jpg') no-repeat center center;
 		  }
 	#paso3
 	   {
-	   	background: transparent url('../img/inst3.jpg') no-repeat center center;
+	   	background: transparent url('../img/inst03.jpg') no-repeat center center;
 	   	float: left;
 	   }
 		   #paso3:hover{
-		   	background: transparent url('../img/inst03.jpg') no-repeat center center;
+		   	background: transparent url('../img/inst3.jpg') no-repeat center center;
 		   }
 	#paso4
 	   {
-	   	background: transparent url('../img/inst4.jpg') no-repeat center center;
+	   	background: transparent url('../img/inst04.jpg') no-repeat center center;
 	   	float: right;
 	   }
 		   #paso4:hover{
-		   	background: transparent url('../img/inst04.jpg') no-repeat center center;
+		   	background: transparent url('../img/inst4.jpg') no-repeat center center;
 		   }
 	#paso5
 	   {
-	   	background: transparent url('../img/inst5.jpg') no-repeat center center;
+	   	background: transparent url('../img/inst05.jpg') no-repeat center center;
 	   	float: left;
 	   	margin-bottom: 40px;
 	   }
 		   #paso5:hover{
-		   	background: transparent url('../img/inst05.jpg') no-repeat center center;
+		   	background: transparent url('../img/inst5.jpg') no-repeat center center;
 		   }   
 	#paso6
 	   {
-	   	background: transparent url('../img/inst6.jpg') no-repeat center center;
+	   	background: transparent url('../img/inst06.jpg') no-repeat center center;
 	   	float: right;
 	   }
 		   #paso6:hover{
-		   	background: transparent url('../img/inst06.jpg') no-repeat center center;
+		   	background: transparent url('../img/inst6.jpg') no-repeat center center;
 		   }  
 	/* Pagina INSTALACION*/				
 footer {
@@ -480,9 +513,13 @@ footer {
 		}
 		#welcome ul li ul.series li {
 			display: list-item;
+			
+		}
+		#welcome ul li ul.series li a {
 			font: normal 18px "akz-reg";
 			text-transform: uppercase;
 			color:#0f808a;
+			text-decoration: none;
 		}
 
 			#welcome img.serie {
@@ -512,8 +549,21 @@ footer {
 		width: 300px;
 		float: left;
 	}
-		.top-l h1 {
+		.top h1 {
+			float: left;
+		}
+		.top-l .titulo {
+			height: 45px;
 			border-bottom: 2px solid #8F8F8F;
+			vertical-align: bottom;
+		}
+		.top h4 {
+			margin-top: 19px;
+			font: normal 14px "akz-ita";
+			color: #000;
+			text-transform: none;
+			float: right;
+			
 		}
 		.top p {
 			margin-top: 20px;
