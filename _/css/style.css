@@ -314,12 +314,16 @@ header {
 					position: relative;
 					margin-bottom: 20px;
 					margin-top: 10px;
+					cursor: pointer;
 				}
 					#preguntas dl.faq dt p {
 						font: normal 16px "akz-bold";
 						color: #000000;
 						margin: 0px 55px;
 						padding-top: 0px;
+					}
+					#preguntas dl.faq dt p:hover {
+						color: #0f808a;
 					}
 					#preguntas dl.faq dt img {
 						position: absolute;
