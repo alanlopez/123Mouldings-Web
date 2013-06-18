@@ -102,10 +102,10 @@ header {
 		}
 		#container-wp #info p {
 			border-top: 2px solid #0f808a;
-			padding-top: 25px;
 			font: normal 15px "akz-reg";
-			color: #8F8F8F;
-			margin-bottom: 15px;
+				color: #8F8F8F;
+			padding-top: 25px;
+			margin-bottom: 30px;
 		}
 			#container-wp p span {
 				color: #282727;
@@ -270,7 +270,7 @@ header {
 			}
 			a#bands {
 				left: 400px;
-				top: 290px;
+				top: 55px;
 				
 			}
 			a#door {

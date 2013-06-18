@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8" />
-	<title>123 MOULDINGS</title>
+	<title>123 Mouldings</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<link rel="shortcut icon" href="_/img/favicon.ico" />
@@ -11,11 +11,87 @@
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="_/img/touch-icon-ipad.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="_/img/touch-icon-iphone4.png" />
 	<link rel="stylesheet" href="_/css/main.css" type="text/css"/>
+	<link rel="stylesheet" href="_/css/jquery.qtip.css" type="text/css"/>
 	<script src="_/js/modernizr.custom.02144.js"></script>
 	<script src="_/js/jquery-1.8.2.min.js"></script>
+	<script src="_/js/jquery.qtip.js"></script>
+	<script>
+$(document).ready(function()
+{
 	
+	$('a#wall').qtip({
+	content: {
+			text: 'Wall'
+		},
+		position: {
+		adjust: {
+			x: -20,
+			y: 0
+		},
+				my: 'bottom right', 
+				at: 'top right'
+			}
+		}
+	);
+	$('a#garage').qtip({
+	content: {
+			text: 'Garage'
+		},
+		position: {
+		adjust: {
+			x: -15,
+			y: 0
+		},
+				my: 'bottom right', 
+				at: 'top right'
+			}
+		}
+	);
+	$('a#bands').qtip({
+	content: {
+			text: 'Cornice'
+		},
+		position: {
+		adjust: {
+			x: 20,
+			y: 0
+		},
+				my: 'bottom left', 
+				at: 'top left'
+			}
+		}
+	);
+	$('a#window').qtip({
+	content: {
+			text: 'Window'
+		},
+		position: {
+		adjust: {
+			x: 15,
+			y: 0
+		},
+				my: 'bottom left', 
+				at: 'top left'
+			}
+		}
+	);
+	$('a#door').qtip({
+	content: {
+			text: 'Door'
+		},
+		position: {
+		adjust: {
+			x: 0,
+			y: 0
+		},
+				my: 'bottom center', 
+				at: 'top center'
+			}
+		}
+	);
 	
-</head>
+});</script>
+	</head>
 <body>
 <header>
 	<div id="header-wp">
@@ -24,7 +100,7 @@
 			<li><a href="index.html" class="active">home</a></li>
 			<li><a href="company.html">company</a></li>
 			<li><a href="products.html">products</a></li>
-			<li><a href="uses.html">uses</a></li>
+			<li><a href="uses.html" class="active">uses</a></li>
 		</ul>
 		<ul id="der">
 			<li><a href="installation.html">Installation Guide</a></li>
@@ -35,54 +111,18 @@
 </header> 
 	<div id="container">
 		<div id="container-wp">
-			<img id="slide" src="_/img/slide-casa.jpg" alt="" />
-			<div id="shadow"></div>
-			<div id="welcome">
-				<h4>Making your paint job <span>extraordinary.</span></h4>
-				<p>We contribute to the creation of architectural beauty and increase the value of all edification. We invite you to know our styles.</p>
-				<ul>
-					<li class="align-series">
-						<ul class="series">
-							<li>
-							<a href="products.html">	<img class="serie" src="_/img/fachada10-s.png" alt="" /></a>							</li>
-							<li>
-							<a href="products.html">hacienda</a>
-							</li>
-						</ul>
-					</li>
-					<li class="align-series">
-						<ul class="series">
-							<li>
-							<a href="products.html">	<img class="serie" src="_/img/fachada20-s.png" alt="" /></a>
-							</li>
-							<li>
-							<a href="products.html">toscano</a>
-							</li>
-						</ul>
-					</li>
-					<li class="align-series">
-						<ul class="series">
-							<li>
-							<a href="products.html">	<img class="serie" src="_/img/fachada30-s.png" alt="" /></a>
-							</li>
-							<li>
-							<a href="products.html">italia</a>
-							</li>
-						</ul>
-					</li>
-					<li class="align-series" id="last">
-						<ul class="series">
-							<li>
-							<a href="products.html">	<img class="serie" src="_/img/fachada40-s.png" alt="" /></a>
-							</li>
-							<li>
-							<a href="products.html">colonial</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
+			<div id="titulo">
+				<h1>Uses</h1>
+			</div><!-- end of #info -->
+			<div id="usos">
+			<a href="#" id="wall"><img src="_/img/point.png" alt="" /></a>
+			<a href="#" id="garage"><img src="_/img/point.png" alt="" /></a>
+			<a href="#" id="bands"><img src="_/img/point.png" alt="" /></a>
+			<a href="#" id="window"><img src="_/img/point.png" alt="" /></a>
+			<a href="#" id="door"><img src="_/img/point.png" alt=""/></a>
+			<img id="casa" src="_/img/casa2.jpg" alt="" />
 			</div>
-		</div><!-- end of #container-wp -->
+			</div><!-- end of #container-wp -->
 	</div><!-- end of #container -->
 <footer>
 	<div id="footer-wp">
