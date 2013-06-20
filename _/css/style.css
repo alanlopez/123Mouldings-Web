@@ -747,6 +747,9 @@ left: -9999px;
 	}
 	#banner-fade301 a:hover, #banner-fade302 a:hover, #banner-fade303 a:hover, #banner-fade401 a:hover, #banner-fade402 a:hover, #banner-fade403 a:hover, #banner-fade201 a:hover, #banner-fade202 a:hover, #banner-fade203 a:hover, #banner-fade101 a:hover, #banner-fade102 a:hover, #banner-fade103 a:hover{
 		background-position: 0 -39px; 
-	}	
+	}
+#message {
+	text-align: center;
+}		
 	
 	
