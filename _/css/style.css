@@ -93,7 +93,7 @@ header {
 			margin-left: 45px;
 		}
 	
-	#container-wp #forma p {
+	#container-wp #contact_form p {
 			color: #8F8F8F;
 			width: 850px;
 			font: normal 15px "akz-reg";
@@ -102,10 +102,10 @@ header {
 		}
 		#container-wp #info p {
 			border-top: 2px solid #0f808a;
-			padding-top: 25px;
 			font: normal 15px "akz-reg";
-			color: #8F8F8F;
-			margin-bottom: 15px;
+				color: #8F8F8F;
+			padding-top: 25px;
+			margin-bottom: 30px;
 		}
 			#container-wp p span {
 				color: #282727;
@@ -137,59 +137,60 @@ header {
 					#container-wp #info li span {
 						color: #8F8F8F;
 					}
-			#container-wp #forma {
+			#container-wp #contact_form {
 				margin-left: 45px;
 				position: relative;
 			}
-			input[type="tel"], input[type="email"], input[type="text"] {
+			
+			input.text-input {
 				font: normal 16px "akz-reg";
 				color: #8F8F8F;
-				margin: 0 15px 15px 15px;
+				margin: 0 15px 25px 15px;
 				border: 1px solid #DEE0E0;
-				
 			}
-			input#rname, input[type="tel"]{
+			input#name, input#phone{
 				width: 275px;
 				height: 30px;
 				padding-left: 85px;
 				
 			}
-			input[type="email"], input#rciudad {
+			input#city, input#email {
 				width: 288px;
 				padding-left: 70px;
 				height: 30px;
 			}
 			
-			label#lname, label#lemail, label#ltel, label#lciudad, label#rcomment  {
+			label#name_label, label#email_label, label#phone_label, label#city_label, label#comment_label  {
 				font: normal 16px "akz-reg";
 				color: #8F8F8F;
+				z-index: 1000;
 			}
-			label#lname {
+			label#name_label {
 				position: absolute;
 				top: 62px;
 				left: 22px;
 			}
-			label#lemail {
+			label#email_label {
 				position: absolute;
 				top: 62px;
 				left: 422px;
 			}
-			label#ltel {
+			label#phone_label {
 				position: absolute;
-				top: 110px;
+				top: 120px;
 				left: 22px;
 			}
-			label#lciudad {
+			label#city_label {
 				position: absolute;
-				top: 110px;
+				top: 120px;
 				left: 422px;
 			}
-			label#rcomment {
+			label#comment_label {
 				position: absolute;
-				top: 158px;
+				top: 178px;
 				left: 22px;
 			}
-			textarea {
+			textarea#comment {
 				font: normal 16px "akz-reg";
 				color: #8F8F8F;
 				width: 675px;
@@ -198,7 +199,7 @@ header {
 				padding-top: 5px;
 				border: 1px solid #DEE0E0;
 			}
-			input#bEnviar {
+			input.button {
 				background: #0f808a; /* Old browsers */
 				background: -moz-linear-gradient(top,  #0f808a 2%, #005f84 75%); /* FF3.6+ */
 				background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#0f808a), color-stop(75%,#005f84)); /* Chrome,Safari4+ */
@@ -218,7 +219,7 @@ header {
 				margin-right: 125px;
 				
 			}
-			input#bEnviar:hover{
+			input.button:hover{
 				background: #005f84; /* Old browsers */
 				background: -moz-linear-gradient(top,  #005f84 4%, #0f808a 73%); /* FF3.6+ */
 				background: -webkit-gradient(linear, left top, left bottom, color-stop(4%,#005f84), color-stop(73%,#0f808a)); /* Chrome,Safari4+ */
@@ -228,6 +229,34 @@ header {
 				background: linear-gradient(to bottom,  #005f84 4%,#0f808a 73%); /* W3C */
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005f84', endColorstr='#0f808a',GradientType=0 ); /* IE6-9 */
 					 }
+			label#name_error.error {
+				position: absolute;
+				top: 64px;
+				left: 250px;
+				opacity: .3;
+				color: red;
+				}
+			label#email_error.error {
+				position: absolute;
+				top: 64px;
+				left: 640px;
+				opacity: .3;
+				color: red;
+				}
+			label#phone_error.error {
+				position: absolute;
+				top: 123px;
+				left: 250px;
+				opacity: .3;
+				color: red;
+				}
+			label#city_error.error {
+				position: absolute;
+				top: 123px;
+				left: 640px;
+				opacity: .3;
+				color: red;
+				}				
 			#container-wp #contacto {
 				margin-top: 70px;
 				background: transparent url('../img/shadow.png') repeat-x;
@@ -270,7 +299,7 @@ header {
 			}
 			a#bands {
 				left: 400px;
-				top: 290px;
+				top: 55px;
 				
 			}
 			a#door {

@@ -132,7 +132,7 @@ a.thumb {
 	border: 1px solid #ccc;
 }
 ul.thumbs li.selected a.thumb {
-	background: #000;
+	background: #0f808a;
 }
 a.thumb:focus {
 	outline: none;
